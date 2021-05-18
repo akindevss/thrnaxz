@@ -1,14 +1,11 @@
+---
 application:
-  name: thrnaxz
-  project: thrnaxz
-  publicly_accessible: true
-databases:
-- type: postgresql
-  version: "12"
-  name: my-psql
+  name: "thrnaxz"
+  project: "thrnaxz"
+  organization: "QoveryCommunity"
 routers:
-- name: main
+- name: "main-thrnaxz"
   routes:
-  - application_name: thrnaxz
+  - application_name: "thrnaxz"
     paths:
-    - /
+    - "/*"
